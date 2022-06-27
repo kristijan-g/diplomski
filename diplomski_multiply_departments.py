@@ -25,7 +25,6 @@ input2 = open("D:\Downloads1\kg_diplomski1\Global.json", "r+")
 input2_data = json.loads(input2.read())
 output1 = open("ClientInfo.json", "w+")
 output2 = open("Global.json", "w+")
-output3 = open("Players.json", "w+")
 startX = 3400
 startY = 2500
 actor_ids = []
